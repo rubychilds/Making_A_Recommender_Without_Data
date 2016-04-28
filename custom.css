@@ -1,0 +1,65 @@
+body {
+  background-color: #000;
+  background-size: 50%;
+}
+
+.reveal p {
+color: white;
+}
+
+.reveal {
+  background-image: url("logo.png");
+  back
+  background-position: left top;
+  background-repeat: no-repeat;
+  font-family: Gibson;
+  color: white;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: white;
+}
+
+.reveal body{
+  color: white;
+  font-family: News\ 706,Georgia,serif;
+}
+
+.reveal ul, ol {
+color: white;
+}
+
+div.output_area pre {
+color: white;
+}
+
+div.output_stderr {
+background: white;
+}
+.reveal table th, .reveal table td {
+color: white;
+}
+
+.slides {
+    width: 1200px !important;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+    border-left-color: white;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+    border-right-color: white;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+    border-bottom-color: white;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+    border-top-color: white;
+}
