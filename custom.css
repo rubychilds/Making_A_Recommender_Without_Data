@@ -1,32 +1,74 @@
-body {
-  background-color: #000;
-  background-size: 50%;
-}
-
-.reveal p {
-color: white;
+.reveal body,
+body,
+.reveal .slide-background {
+  background: #5707F3;
+  outline: none;
+  border: 0;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+  font-family: Gibson-Light;
 }
 
 .reveal {
-  background-image: url("logo.png");
-  back
-  background-position: left top;
-  background-repeat: no-repeat;
-  font-family: Gibson;
-  color: white;
+  transition: none;
 }
 
-.reveal h1, .reveal h2, .reveal h3 {
-  color: white;
+.reveal section img,
+img {
+    background: #5707F3;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
 }
 
-.reveal body{
+.reveal p,
+.reveal h1,
+.reveal h2,
+.reveal h3 {
   color: white;
-  font-family: News\ 706,Georgia,serif;
+  font-family: gibson;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  white-space: normal;
+  margin-top: 70px;
 }
 
-.reveal ul, ol {
-color: white;
+
+.reveal p,
+.reveal ul, ol,
+.reveal h4,
+.reveal table th,
+.reveal table td  {
+  color: white;
+  font-family: gibson;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  white-space: normal;
+  margin-top: 70px;
+}
+
+
+
+.reveal .title h1{
+  color: white;
+  font-family: gibson;
+  font-size: 150px;
+  font-weight: 800;
+  letter-spacing: 10px;
+}
+
+.reveal .subtitle h1{
+  color: white;
+  font-family: gibson;
+  font-size: 70px;
+  font-weight: 400;
 }
 
 div.output_area pre {
@@ -36,8 +78,14 @@ color: white;
 div.output_stderr {
 background: white;
 }
+
 .reveal table th, .reveal table td {
 color: white;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+    line-height: none;
 }
 
 .slides {
@@ -62,4 +110,10 @@ color: white;
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
     border-top-color: white;
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
