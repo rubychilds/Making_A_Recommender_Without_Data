@@ -22,8 +22,6 @@ img {
     outline: none;
     border: 0;
     box-shadow: none;
-    width: 100%;
-    height: 100%;
 }
 
 .reveal p,
@@ -49,11 +47,14 @@ img {
   font-family: gibson;
   font-size: 30px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 33px;
   white-space: normal;
-  margin-top: 70px;
 }
 
+
+.reveal .col-md-6 p {
+  text-align: center;
+}
 
 
 .reveal .title h1{
